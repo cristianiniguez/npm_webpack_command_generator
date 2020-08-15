@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPM and WEBPACK command generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>NPM and WEBPACK command generator</h1>
+        <div class="logos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg" alt="npm">
+            <img src="https://miro.medium.com/max/2520/1*nEjxrNu99qCJhpQCTKKoSg.png" alt="webpack">
+        </div>
+        <p>Genera el comando necesario para instalar dependencias de desarrollo de NPM y de WEBPACK en tu proyecto</p>
+        <h4>Selecciona - Copia - Pega</h4>
+    </header>
+    <main>
+        <div class="container">
+            <section class="packs">
+                <h2>Selecciona los paquetes que vas a utilizar en tu proyecto</h2>
+                <table class="packs__table">
+                    <thead>
+                        <tr>
+                            <td>Paquete</td>
+                            <td>Descripción</td>
+                            <td>Documentación</td>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </section>
+            <section class="result">
+                <h2>Copia el comando generado</h2>
+                <label><input type="checkbox" id="dev-dep-chb">Dependencias de desarrollo</label>
+                <label><input type="checkbox" id="exact-chb">Versiones exactas</label>
+                <div class="result__box">
+                    <input class="result__command" id="result-command" readonly>
+                    <button class="result__btn" title="Copiar"><i class="far fa-copy" onclick="copyCommand()"></i></button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <a href="https://cristianiniguez.github.io" target="_blank">Cristian Iñiguez</a> - 2020</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

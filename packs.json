@@ -1,0 +1,52 @@
+[
+    {
+        "name": "webpack",
+        "description": "Empaqueta todos nuestros archivos para producción",
+        "documentacion_link": "https://webpack.js.org/concepts/"
+    },
+    {
+        "name": "webpack-cli",
+        "description": "Command Line Interface de Webpack",
+        "documentacion_link": "#"
+    },
+    {
+        "name": "webpack-dev-server",
+        "description": "Corre un servidor de desarrollo de tu proyecto",
+        "documentacion_link": "https://webpack.js.org/configuration/dev-server/"
+    },
+    {
+        "name": "css-loader",
+        "description": "Permite importación de archivos .css desde javascript",
+        "documentacion_link": "https://webpack.js.org/loaders/css-loader/"
+    },
+    {
+        "name": "style-loader",
+        "description": "Permite inyectar css en el html (se usa con style-loader)",
+        "documentacion_link": "https://webpack.js.org/loaders/style-loader/"
+    },
+    {
+        "name": "html-loader",
+        "description": "Permite importación de archivos .html desde javascript",
+        "documentacion_link": "https://webpack.js.org/loaders/html-loader/"
+    },
+    {
+        "name": "html-webpack-plugin",
+        "description": "Permite que webpack maneje archivos html",
+        "documentacion_link": "https://webpack.js.org/plugins/html-webpack-plugin/"
+    },
+    {
+        "name": "mini-css-extract-plugin",
+        "description": "Permite que webpack maneje archivos css",
+        "documentacion_link": "https://webpack.js.org/plugins/mini-css-extract-plugin/"
+    },
+    {
+        "name": "url-loader",
+        "description": "Transforma archivos a url's base 64",
+        "documentacion_link": "https://webpack.js.org/loaders/url-loader/"
+    },
+    {
+        "name": "file-loader",
+        "description": "Permite importación de archivos binarios desde javascript",
+        "documentacion_link": "https://webpack.js.org/loaders/file-loader/"
+    }
+]
