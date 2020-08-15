@@ -1,6 +1,6 @@
 # NPM and WEBPACK command generator
 
-Genera el comando necesario para instalar dependencias de desarrollo de NPM y de WEBPACK en tu proyecto
+Genera el comando necesario para instalar dependencias de NPM y de WEBPACK en tu proyecto
 
 1. Selecciona los paquetes que vas a descargar a tu proyecto
 2. Copia el comando generado con un solo click
